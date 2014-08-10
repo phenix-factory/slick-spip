@@ -21,5 +21,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
     'speed' => "Vitesse de l'animation",
     'vertical' => 'Vertical ?',
     'slidesToShow' => 'Nombre de slide à afficher:',
-    'slidesToScroll' => 'Nombre de slide à déplacer:'
+    'slidesToScroll' => 'Nombre de slide à déplacer:',
+    'autoplaySpeed' => "Vitesse de l'autoplay"
 );
