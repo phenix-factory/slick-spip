@@ -13,7 +13,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 // Ajouter Slick à SPIP
 function slick_jquery_plugins($scripts) {
-    $scripts[] = 'lib/slick/slick/slick.js';
+    $scripts[] = 'lib/slick/slick/slick.min.js';
     return $scripts;
 }
 
