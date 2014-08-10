@@ -5,6 +5,7 @@
     etat="dev"
     compatibilite="[3.0.16;3.0.*]"
     logo="prive/themes/spip/images/slick-64.png"
+    schema="1.0"
     documentation=""
     >
   <!--
@@ -37,6 +38,8 @@
       * parents d'onglets... configuration, plugins, statistiques, ...
       <onglet nom="slick" titre="slick:slick_titre" parent="configuration" icone="images/slick-24.png" />
   -->
+
+  <necessite nom="saisies" compatibilite="[1.21.0;]" />
 
   <pipeline nom="insert_head_css" inclure="slick_pipelines.php" />
   <pipeline nom="jquery_plugins" inclure="slick_pipelines.php" />
