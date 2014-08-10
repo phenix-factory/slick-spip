@@ -1,7 +1,7 @@
 $(function ($) {
     $("#CONFIG{slick/selecteur}").slick({
-        <BOUCLE_config(DATA){source table, #CONFIG{slick}}{','}{cle!=selecteur}>
-          #CLE: #VALEUR
+        <BOUCLE_config(DATA){source table, #CONFIG{slick}}{','}{cle!=selecteur}{valeur!=''}>
+          [#CLE: (#VALEUR)]
         </BOUCLE_config>
     });
 });
