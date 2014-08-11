@@ -15,7 +15,16 @@ function slick_upgrade($nom_meta_base_version, $version_cible) {
     $maj = array();
 
     $config_default = array(
-         'selecteur' => '#slick'
+        'selecteur' => '#slick',
+        'slide' => 'div',
+        'slidesToShow' => 1,
+        'slidesToScroll' => 1,
+        'autoplay' => "true",
+        'autoplaySpeed' => 3000,
+        'fade' => "false",
+        'speed' => 300,
+        'vertical' => "false",
+        'lazyload' => 'ondemand'
     );
 
     // Tableau de la configuration par défaut
