@@ -15,6 +15,13 @@ function formulaires_configurer_slick_saisies_dist() {
         array(
             'saisie' => 'input',
             'options' => array(
+                'nom' => 'slide',
+                'label' => _T('slick:slide')
+            )
+        ),
+        array(
+            'saisie' => 'input',
+            'options' => array(
                 'nom' => 'slidesToShow',
                 'label' => _T('slick:slidesToShow')
             )
@@ -49,6 +56,13 @@ function formulaires_configurer_slick_saisies_dist() {
             )
         ),
         array(
+            'saisie' => 'input',
+            'options' => array(
+                'nom' => 'speed',
+                'label' => _T('slick:speed')
+            )
+        ),
+        array(
             'saisie' => 'true_false',
             'options' => array(
                 'nom' => 'vertical',
@@ -57,10 +71,14 @@ function formulaires_configurer_slick_saisies_dist() {
             )
         ),
         array(
-            'saisie' => 'input',
+            'saisie' => 'radio',
             'options' => array(
-                'nom' => 'speed',
-                'label' => _T('slick:speed')
+                'nom' => 'lazyload',
+                'label' => _T('slick:lazyload'),
+                'datas' => array(
+                    'ondemand' => 'ondemand',
+                    'progressive' => 'progressive'
+                )
             )
         )
     );
