@@ -22,5 +22,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
     'vertical' => 'Vertical ?',
     'slidesToShow' => 'Nombre de slide à afficher:',
     'slidesToScroll' => 'Nombre de slide à déplacer:',
-    'autoplaySpeed' => "Vitesse de l'autoplay"
+    'autoplaySpeed' => "Vitesse de l'autoplay",
+    'slide' => 'Elément à utiliser comme Slide',
+    'lazyload' => 'Lazyload'
 );
