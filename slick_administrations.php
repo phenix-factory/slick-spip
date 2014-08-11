@@ -33,5 +33,6 @@ function slick_upgrade($nom_meta_base_version, $version_cible) {
 */
 function slick_vider_tables($nom_meta_base_version) {
     // Supprimer les méta, ou oublie pas celle de la base.
+    effacer_meta('slick_base_version');
     effacer_meta('slick');
 }
