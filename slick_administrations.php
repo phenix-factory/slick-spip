@@ -15,6 +15,7 @@ function slick_upgrade($nom_meta_base_version, $version_cible) {
     $maj = array();
 
     $config_default = array(
+        'charger' => 'on',
         'selecteur' => '#slick',
         'slide' => 'div',
         'slidesToShow' => 1,

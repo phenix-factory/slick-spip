@@ -24,5 +24,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
     'slidesToScroll' => 'Nombre de slide à déplacer:',
     'autoplaySpeed' => "Vitesse de l'autoplay",
     'slide' => 'Elément à utiliser comme Slide',
-    'lazyload' => 'Lazyload'
+    'lazyload' => 'Lazyload',
+    'charger' => 'Exectuter Slick',
+    'explication_charger' => 'Active Slick automatiquement'
 );
