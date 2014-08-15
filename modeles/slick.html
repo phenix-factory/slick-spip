@@ -1,7 +1,7 @@
 [(#REM) Modèle slick ]
 
-#SET{largeur_min, #ENV{largeur_min, 0}}
-#SET{hauteur_min, #ENV{hauteur_min, 0}}
+#SET{largeur, #ENV{largeur, 960}}
+#SET{hauteur, #ENV{hauteur, 320}}
 
 #SET{nombre, #ENV{nombre, 10}}
 
@@ -9,14 +9,14 @@
   <div id="slick">
     <BOUCLE_documents_slide(DOCUMENTS)
       {media=image}
-      {largeur >= #GET{largeur_min}}
-      {hauteur >= #GET{hauteur_min}}
+      {largeur >= #GET{largeur}}
+      {hauteur >= #GET{hauteur}}
       {par hasard}
       {0,#GET{nombre}}>
       [<div>
         (#FICHIER
-        |image_passe_partout{968,227}
-        |image_recadre{968,227})
+        |image_passe_partout{#GET{largeur},#GET{hauteur}}
+        |image_recadre{#GET{largeur},#GET{hauteur}})
       </div>]
     </BOUCLE_documents_slide>
   </div>
