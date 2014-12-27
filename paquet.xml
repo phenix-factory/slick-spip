@@ -39,7 +39,7 @@
       <onglet nom="slick" titre="slick:slick_titre" parent="configuration" icone="images/slick-24.png" />
   -->
 
-  <necessite nom="saisies" compatibilite="[1.21.0;]" />
+  <necessite nom="saisies" compatibilite="[2.0.3;]" />
 
   <pipeline nom="insert_head_css" inclure="slick_pipelines.php" />
   <pipeline nom="jquery_plugins" inclure="slick_pipelines.php" />
