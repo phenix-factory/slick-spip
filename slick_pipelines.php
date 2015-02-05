@@ -19,7 +19,7 @@ function slick_insert_head($flux) {
     $flux .= '<script type="text/javascript" id="slick_js" src="'.find_in_path('lib/slick/slick/slick.min.js').'"></script>';
 
     if ($config['charger']) {
-        $flux .= '<script type="text/javascript" id="slick_charger" src="'.produire_fond_statique('javascript/slick.spip.js').'"></script>';
+        $flux .= '<script type="text/javascript" src="'.produire_fond_statique('javascript/slick.spip.js').'"></script>';
     }
 
     return $flux;
