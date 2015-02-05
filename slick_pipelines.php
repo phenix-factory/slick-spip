@@ -12,16 +12,17 @@
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 // Ajouter Slick à SPIP
-function slick_jquery_plugins($scripts) {
+function slick_insert_head($flux) {
     include_spip('inc/config');
     $config = lire_config('slick');
 
-    $scripts[] = 'lib/slick/slick/slick.min.js';
+    $flux .= '<script type="text/javascript" id="slick_js" src="'.find_in_path('lib/slick/slick/slick.js').'"></script>';
 
-    if ($config['charger'])
-        $scripts[] = produire_fond_statique('javascript/slick.spip.js');
+    if ($config['charger']) {
+        $flux .= '<script type="text/javascript" id="slick_charger" src="'.produire_fond_statique('javascript/slick.spip.js').'"></script>';
+    }
 
-    return $scripts;
+    return $flux;
 }
 
 // Ajouter le css de slick

@@ -23,6 +23,6 @@
   <necessite nom="saisies" compatibilite="[2.0.3;]" />
 
   <pipeline nom="insert_head_css" inclure="slick_pipelines.php" />
-  <pipeline nom="jquery_plugins" inclure="slick_pipelines.php" />
+  <pipeline nom="insert_head" inclure="slick_pipelines.php" />
 
 </paquet>
