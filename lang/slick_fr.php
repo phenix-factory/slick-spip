@@ -6,7 +6,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
     // S
-    'slick_titre' => 'Slick',
+    'slick_titre' => 'Slick Slideshow',
 
     // C
     'cfg_exemple' => 'Exemple',
