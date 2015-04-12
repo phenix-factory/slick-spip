@@ -1,3 +1,0 @@
-[submodule "lib/slick"]
-	path = lib/slick
-	url = git@github.com:kenwheeler/slick.git
